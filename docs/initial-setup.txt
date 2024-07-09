@@ -1,0 +1,19 @@
+# Create a new directory named 'dummy-project'
+mkdir dummy-project
+
+# Change directory into 'dummy-project'
+cd dummy-project
+
+# Open Visual Studio Code in the current directory
+code .
+
+# Open a new terminal within Visual Studio Code
+
+# Create a virtual environment named 'flask-project-env' using Python's built-in venv module
+python -m venv flask-project-env
+
+# Activate the virtual environment on Windows
+.\flask-project-env\Scripts\activate
+
+# Once you're done working in the virtual environment, deactivate it
+deactivate
