@@ -1,13 +1,41 @@
+# Initialize a new Git repository in your project directory
 git init
 
+# Create and switch to a new branch named 'meghana'
 git checkout -b meghana
 
+# Check the current status of your Git repository
 git status
 
+# Add all files in the current directory to the staging area
 git add .
 
+# Check the status again to see which files are staged for commit
 git status
 
+# Switch back to the 'meghana' branch (assuming you switched to another branch earlier)
+git checkout meghana
 
+# List all branches to confirm 'meghana' exists and you are on it
+git branch
 
+==============================
 
+# Add a remote repository named 'origin' with the URL of your GitHub repository
+git remote add origin https://github.com/MeghanaGorumuchu/dummy-project.git
+
+===============================
+
+git status
+
+# 
+git add .
+
+# 
+git status
+
+# Commit changes with a meaningful message describing your update
+git commit -m "Updated File Structure"
+
+# Push the committed changes from the 'meghana' branch to the 'origin' remote repository on GitHub
+git push origin meghana
