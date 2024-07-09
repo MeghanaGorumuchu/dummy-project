@@ -1,0 +1,13 @@
+git init
+
+git checkout -b meghana
+
+git status
+
+git add .
+
+git status
+
+
+
+
